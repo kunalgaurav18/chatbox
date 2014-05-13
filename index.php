@@ -3,7 +3,7 @@ session_start();
 ?>
 <html>
 <head>
-<title>Chatbox||</title>
+<title>Chatbox</title>
 <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
