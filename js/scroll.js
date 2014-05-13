@@ -1,0 +1,1 @@
+$('#messages').animate({ scrollTop: $('#messages').height() }, "slow");
