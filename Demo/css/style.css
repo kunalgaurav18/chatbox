@@ -1,0 +1,62 @@
+body{
+font-family:Tahoma;
+font-size: 15px;
+}
+#container{
+height:400px;
+width:400px;
+border:1px solid black;
+float:left;
+}
+
+#messages{
+	font-family:tahoma;
+
+    font-size:12px;
+
+    color:green;
+
+    border: 4px teal solid;
+
+    height: 300px;
+
+    width: 350px;
+
+    overflow:auto;
+
+    float:left;
+    padding-left :20px;
+}
+
+
+#chatbox{
+border: 4px teal solid;
+background-color : green;
+height: 32px;
+color:white;
+text-align:center;
+width: 350px;
+
+}
+
+
+#mesage{
+
+border: 4px teal solid;
+border-color: #fd680e;
+width: 350px;
+
+}
+
+
+
+#onlinecont{
+width:200px;
+height:auto;
+border: 4px teal solid;
+overflow:auto;
+float: center;
+padding-left :10px;
+color:green;
+}
+
