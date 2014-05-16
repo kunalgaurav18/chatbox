@@ -127,11 +127,11 @@ $(window).unload(function(){
   logout();
 });
 
-$(function() {
-  var wtf    = $('#messages');
-  var height = wtf[0].scrollHeight;
-  wtf.scrollBottom(height);
-});
+setInterval(function() {
+  //var wtf    = $('#messages');
+  //var height = wtf[0].scrollHeight;
+  $('#messages').animate({scrollTop: $('#messages').get(0).scrollHeight}, 9000);
+},10000);
 </script>
   </body>
 </html>
